@@ -334,3 +334,25 @@ SELECT product_name, product_type, profit
 ⅢGROUP BY的子句书写顺序有严格要求，不按要求会导致SQL无法正常执行，目前出现过的子句顺序为：1. SELECT ➡️ 2. FROM ➡️ 3. WHERE ➡️ 4. GROUP BY
 
 ⅣSUM函数用于对数值列进行求和,product_name为字符型,不可以用
+
+
+2.6请编写一条SELECT语句，求出销售单价（ sale_price 列）合计值大于进货单价（ purchase_price 列）合计值1.5倍的商品种类。执行结果如下所示。
+
+![image](https://github.com/TranquilMaple/The-learning-journey-of-YF/assets/139969854/8868dd21-8f9a-4e19-93dc-41d8238bdc35)
+
+```mysql
+SELECT product_type, SUM(sale_price), SUM(purchase_price)
+  FROM product
+	GROUP BY product_type
+	HAVING SUM(sale_price)
+```
+
+2.7此前我们曾经使用SELECT语句选取出了product（商品）表中的全部记录。当时我们使用了 ORDER BY 子句来指定排列顺序，但现在已经无法记起当时如何指定的了。请根据下列执行结果，思考 ORDER BY 子句的内容。
+
+![image](https://github.com/TranquilMaple/The-learning-journey-of-YF/assets/139969854/98bef8c4-1320-479c-abb3-4618a13ca0ef)
+
+```mysql
+SELECT *
+    FROM product
+    ORDER BY - regist_date , sale_price;
+```
