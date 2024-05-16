@@ -12,11 +12,15 @@
 解决办法参考[【已解决】mysql：ERROR 2003 (HY000): Can't connect to MySQL server on 'localhost:3306' (10061) - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/661201217?utm_id=0)
 
 问题2:用navicat链接mysql时,无法链接
+
 解决方法: 
+
 step1 win+R
+
 ![image-20240515102128080](https://github.com/TranquilMaple/The-learning-journey-of-YF/assets/139969854/f1c2062c-3047-4947-9a13-3b5f8bf4e8d0)
 
 step2 打开services.msc, 然后启动
+
 ![image-20240515102242340](https://github.com/TranquilMaple/The-learning-journey-of-YF/assets/139969854/e78cd4ec-7f10-4cda-83ca-8403b5db13ca)
 
 
