@@ -288,3 +288,17 @@ SELECT product_name, sale_price, purchase_price
 
 提示：销售单价打九折，可以通过 sale_price 列的值乘以0.9获得，利润可以通过该值减去 purchase_price 列的值获得。
 
+```mysql
+-- 添加profit列
+ALTER TABLE product ADD COLUMN profit DECIMAL(10, 2);
+
+-- 计算并填充profit列的值
+UPDATE product
+SET profit = sale_price * 0.9 - purchase_price;
+
+-- 查询profit大于100的产品并输出
+SELECT product_name, product_type, profit
+  FROM product
+  WHERE profit > 100;
+```
+
