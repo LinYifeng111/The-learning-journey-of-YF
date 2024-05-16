@@ -211,7 +211,8 @@ SELECT product_name
 ```
 ![image](https://github.com/TranquilMaple/The-learning-journey-of-YF/assets/139969854/cf896f85-3ff2-4c01-80e2-9f001b7edf79)
 
-**运算优先级**
+**注:运算优先级**
+
 ![image](https://github.com/TranquilMaple/The-learning-journey-of-YF/assets/139969854/a2557a10-5a3d-4fd2-9809-ac53dca48786)
 
 
