@@ -182,4 +182,23 @@ DROP TABLE Addressbook;
 
 
 ## 1基础查找与排序5.16
-###SELECT 语句和WHERE语句
+**SELECT 语句和WHERE语句**
+注意这里一定要缩进
+```mysql
+SELECT <列名>, ……
+  FROM <表名>
+  WHERE <条件表达式>;
+```
+
+```mysql
+SELECT product_name, product_type
+  FROM product
+  WHERE product_type = '衣服';
+```
+![image](https://github.com/TranquilMaple/The-learning-journey-of-YF/assets/139969854/3d2e2bf7-48ec-43dd-a250-881866d7ba06)
+```mysql
+SELECT product_name
+  FROM product
+  WHERE product_type = '衣服';
+```
+![image](https://github.com/TranquilMaple/The-learning-journey-of-YF/assets/139969854/cf896f85-3ff2-4c01-80e2-9f001b7edf79)
