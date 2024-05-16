@@ -259,9 +259,32 @@ SELECT *
 
 
 why? NULL的真值结果既不为真，也不为假，因为并不知道这样一个值。
+
 真<NULL(不确定)<假
 
 2.3在2.2.3章节中的SELECT语句能够从 product 表中取出“销售单价（sale_price）比进货单价（purchase_price）高出500日元以上”的商品。请写出两条可以得到相同结果的SELECT语句。执行结果如下所示：
 
 ![image](https://github.com/TranquilMaple/The-learning-journey-of-YF/assets/139969854/f4633217-51de-4e9c-8df0-cca98bafece5)
+
+①
+
+```mysql
+SELECT product_name, sale_price, purchase_price
+  FROM product
+  WHERE purchase_price > 500;
+```
+
+②
+
+```mysql
+SELECT product_name, sale_price, purchase_price
+  FROM product
+  WHERE NOT purchase_price <= 500;
+```
+
+![image](https://github.com/TranquilMaple/The-learning-journey-of-YF/assets/139969854/f8ff3d8e-0c1d-4ecc-8bfa-dbb343abd95d)
+
+2.4请写出一条SELECT语句，从 product 表中选取出满足“销售单价打九折之后利润高于 100 日元的办公用品和厨房用具”条件的记录。查询结果要包括 product_name列、product_type 列以及销售单价打九折之后的利润（别名设定为 profit）。
+
+提示：销售单价打九折，可以通过 sale_price 列的值乘以0.9获得，利润可以通过该值减去 purchase_price 列的值获得。
 
