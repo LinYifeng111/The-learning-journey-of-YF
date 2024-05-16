@@ -33,7 +33,8 @@ step2 打开services.msc, 然后启动
 show databases;
 ```
 
-![image-20240514195547192](C:\Users\linyifeng\AppData\Roaming\Typora\typora-user-images\image-20240514195547192.png)
+![image-20240514195547192](https://github.com/TranquilMaple/The-learning-journey-of-YF/assets/139969854/638a2925-c256-4908-b991-2f1cdc728253)
+
 
 
 
@@ -43,7 +44,8 @@ show databases;
 CREATE DATABASE shop;
 ```
 
-![image-20240515003315997](C:\Users\linyifeng\AppData\Roaming\Typora\typora-user-images\image-20240515003315997.png)
+![image-20240514200027863](https://github.com/TranquilMaple/The-learning-journey-of-YF/assets/139969854/80f17473-9ae1-43d8-ba08-4d900845e9bc)
+
 
 
 
@@ -53,11 +55,9 @@ CREATE DATABASE shop;
 show variables like '%datadir%';
 ```
 
-![image-20240515003349911](C:\Users\linyifeng\AppData\Roaming\Typora\typora-user-images\image-20240515003349911.png)
 
+![image-20240514200420048](https://github.com/TranquilMaple/The-learning-journey-of-YF/assets/139969854/9b04fb80-d15f-4dc1-8d07-77adcc00d0b3)
 
-
-![image-20240515003426113](C:\Users\linyifeng\AppData\Roaming\Typora\typora-user-images\image-20240515003426113.png)
 
 
 
