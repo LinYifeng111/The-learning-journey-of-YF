@@ -209,4 +209,59 @@ SELECT product_name
 
 
 ### 练习题Part1
-2.1编写一条SQL语句，从 product(商品) 表中选取出“登记日期(regist_date)在2009年4月28日之后”的商品，查询结果要包含 product_name 和 regist_date 两列。
+2.1编写一条SQL语句，从`product(商品)`表中选取出“登记日期(`regist_date`)在2009年4月28日之后”的商品，查询结果要包含`product_name`和`regist_date`两列。
+
+```mysql
+SELECT product_name, regist_date
+  FROM product
+	WHERE regist_date >= '2009-04-28'
+```
+
+![image](https://github.com/TranquilMaple/The-learning-journey-of-YF/assets/139969854/b2c009d0-b1ed-46ce-a34c-6cba2d63431a)
+
+2.2请说出对product 表执行如下3条SELECT语句时的返回结果。
+①
+
+```mysql
+SELECT *
+  FROM product
+  WHERE purchase_price = NULL;
+```
+
+返回purchase_price列为NULL的记录
+
+![image](https://github.com/TranquilMaple/The-learning-journey-of-YF/assets/139969854/4034c3b4-8c4b-47ce-9aab-5e90ea548187)
+
+②
+
+```mysql
+SELECT *
+  FROM product
+  WHERE purchase_price <> NULL;
+```
+
+返回purchase_price列为NULL的记录
+
+![image](https://github.com/TranquilMaple/The-learning-journey-of-YF/assets/139969854/26987d24-4d0c-405a-bc1b-bc0c0d0d998a)
+
+
+③
+
+```mysql
+SELECT *
+  FROM product
+  WHERE product_name > NULL;
+```
+
+返回purchase_price列为NULL的记录
+
+![image](https://github.com/TranquilMaple/The-learning-journey-of-YF/assets/139969854/63ee1660-4311-4216-b0e2-cd1c14beb10d)
+
+
+why? NULL的真值结果既不为真，也不为假，因为并不知道这样一个值。
+真<NULL(不确定)<假
+
+2.3在2.2.3章节中的SELECT语句能够从 product 表中取出“销售单价（sale_price）比进货单价（purchase_price）高出500日元以上”的商品。请写出两条可以得到相同结果的SELECT语句。执行结果如下所示：
+
+![image](https://github.com/TranquilMaple/The-learning-journey-of-YF/assets/139969854/f4633217-51de-4e9c-8df0-cca98bafece5)
+
