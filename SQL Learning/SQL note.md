@@ -44,7 +44,8 @@ show databases;
 CREATE DATABASE shop;
 ```
 
-![image-20240514200027863](https://github.com/TranquilMaple/The-learning-journey-of-YF/assets/139969854/80f17473-9ae1-43d8-ba08-4d900845e9bc)
+![image-20240515003315997](https://github.com/TranquilMaple/The-learning-journey-of-YF/assets/139969854/637595ce-a24f-4fca-bf1c-0ccb18309923)
+
 
 
 
@@ -55,9 +56,9 @@ CREATE DATABASE shop;
 show variables like '%datadir%';
 ```
 
+![image-20240515003349911](https://github.com/TranquilMaple/The-learning-journey-of-YF/assets/139969854/0432f15c-cfb0-4f34-827c-0bb5c11f6357)
 
-![image-20240514200420048](https://github.com/TranquilMaple/The-learning-journey-of-YF/assets/139969854/9b04fb80-d15f-4dc1-8d07-77adcc00d0b3)
-
+![image-20240515003426113](https://github.com/TranquilMaple/The-learning-journey-of-YF/assets/139969854/089ae9e9-d971-40ad-b8ed-fec5c3eac010)
 
 
 
@@ -78,7 +79,8 @@ CREATE TABLE product
 
 但是遇到了错误
 
-![image-20240515004305777](C:\Users\linyifeng\AppData\Roaming\Typora\typora-user-images\image-20240515004305777.png)
+![image-20240515004305777](https://github.com/TranquilMaple/The-learning-journey-of-YF/assets/139969854/20986121-6e85-41b2-9c45-01988c4c4174)
+
 
 参考了CSDN教程:[MySQL数据库中出现no database selected是什么意思？-CSDN博客](https://fanjufei.blog.csdn.net/article/details/108943943?spm=1001.2101.3001.6661.1&utm_medium=distribute.pc_relevant_t0.none-task-blog-2~default~CTRLIST~Rate-1-108943943-blog-84146918.235^v43^pc_blog_bottom_relevance_base9&depth_1-utm_source=distribute.pc_relevant_t0.none-task-blog-2~default~CTRLIST~Rate-1-108943943-blog-84146918.235^v43^pc_blog_bottom_relevance_base9&utm_relevant_index=1)
 
@@ -90,13 +92,18 @@ use shop;
 
 再用CREATE TABLE语句创建表即可.
 
-![image-20240515004822095](C:\Users\linyifeng\AppData\Roaming\Typora\typora-user-images\image-20240515004822095.png)
+![image-20240515004822095](https://github.com/TranquilMaple/The-learning-journey-of-YF/assets/139969854/cf415e56-6e76-49bc-acec-d7181866fd37)
+
 
 好耶!
 
-![image-20240515005148107](C:\Users\linyifeng\AppData\Roaming\Typora\typora-user-images\image-20240515005148107.png)
+![image-20240515005148107](https://github.com/TranquilMaple/The-learning-journey-of-YF/assets/139969854/819b5001-b4aa-4c28-8e8a-bb41459b29f9)
 
-![image-20240515005209498](C:\Users\linyifeng\AppData\Roaming\Typora\typora-user-images\image-20240515005209498.png)
+
+![image-20240515005209498](https://github.com/TranquilMaple/The-learning-journey-of-YF/assets/139969854/68f570bc-3648-4560-bddf-870c007f6bc3)
+
+
+
 
 ### 练习题
 
@@ -168,6 +175,10 @@ DROP TABLE Addressbook;
 
 ------
 
+补充:
+原来可以在"查询"中批量写代码
+
+![image-20240515103436600](https://github.com/TranquilMaple/The-learning-journey-of-YF/assets/139969854/b89b7947-b767-4f35-8b12-c3536abf86ad)
 
 
 ## 1基础查找与排序
