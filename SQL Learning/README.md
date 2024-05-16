@@ -5,4 +5,4 @@ https://github.com/TranquilMaple/The-learning-journey-of-YF/blob/main/SQL%20Lear
 
 ## 1 基础查找与排序5.16
 
-https://github.com/TranquilMaple/The-learning-journey-of-YF/blob/main/SQL%20Learning/SQL%20note.md#1%E5%9F%BA%E7%A1%80%E6%9F%A5%E6%89%BE%E4%B8%8E%E6%8E%92%E5%BA%8F516
+https://github.com/TranquilMaple/The-learning-journey-of-YF/blob/main/SQL%20Learning/SQL%20note.md#1-%E5%9F%BA%E7%A1%80%E6%9F%A5%E6%89%BE%E4%B8%8E%E6%8E%92%E5%BA%8F516
