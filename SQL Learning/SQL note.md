@@ -302,3 +302,4 @@ SELECT product_name, product_type, profit
   WHERE profit > 100;
 ```
 
+![image](https://github.com/TranquilMaple/The-learning-journey-of-YF/assets/139969854/3b71e1dc-2222-4cc6-a87d-250a5d91d49c)
