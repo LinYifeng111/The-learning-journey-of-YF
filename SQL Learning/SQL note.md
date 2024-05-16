@@ -223,6 +223,7 @@ SELECT product_name, regist_date
 ![image](https://github.com/TranquilMaple/The-learning-journey-of-YF/assets/139969854/b2c009d0-b1ed-46ce-a34c-6cba2d63431a)
 
 2.2请说出对product 表执行如下3条SELECT语句时的返回结果。
+
 ①
 
 ```mysql
@@ -327,13 +328,13 @@ SELECT product_name, product_type, profit
 
 ![image](https://github.com/TranquilMaple/The-learning-journey-of-YF/assets/139969854/c0a1fa66-d3ff-4bf2-ae83-30cf112a0b0e)
 
-ⅠGROUP BY 字段（product_type）与 SELECT 字段不同（product_id）***
+Ⅰ  GROUP BY 字段（product_type）与 SELECT 字段不同（product_id）***
 
-Ⅱproduct_name可能有多个重复的, 需要使用DISTINCT函数
+Ⅱ  product_name可能有多个重复的, 需要使用DISTINCT函数
 
-ⅢGROUP BY的子句书写顺序有严格要求，不按要求会导致SQL无法正常执行，目前出现过的子句顺序为：1. SELECT ➡️ 2. FROM ➡️ 3. WHERE ➡️ 4. GROUP BY
+Ⅲ  GROUP BY的子句书写顺序有严格要求，不按要求会导致SQL无法正常执行，目前出现过的子句顺序为：1. SELECT ➡️ 2. FROM ➡️ 3. WHERE ➡️ 4. GROUP BY
 
-ⅣSUM函数用于对数值列进行求和,product_name为字符型,不可以用
+Ⅳ  SUM函数用于对数值列进行求和,product_name为字符型,不可以用
 
 
 2.6请编写一条SELECT语句，求出销售单价（ sale_price 列）合计值大于进货单价（ purchase_price 列）合计值1.5倍的商品种类。执行结果如下所示。
@@ -350,6 +351,8 @@ SELECT product_type, SUM(sale_price), SUM(purchase_price)
 2.7此前我们曾经使用SELECT语句选取出了product（商品）表中的全部记录。当时我们使用了 ORDER BY 子句来指定排列顺序，但现在已经无法记起当时如何指定的了。请根据下列执行结果，思考 ORDER BY 子句的内容。
 
 ![image](https://github.com/TranquilMaple/The-learning-journey-of-YF/assets/139969854/98bef8c4-1320-479c-abb3-4618a13ca0ef)
+
+日期逆序很明显, 然后看其他的
 
 ```mysql
 SELECT *
