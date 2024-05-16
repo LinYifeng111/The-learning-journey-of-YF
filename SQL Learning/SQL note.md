@@ -183,6 +183,7 @@ DROP TABLE Addressbook;
 
 ## 1基础查找与排序5.16
 **SELECT 语句和WHERE语句**
+
 注意这里一定要缩进
 ```mysql
 SELECT <列名>, ……
@@ -193,12 +194,19 @@ SELECT <列名>, ……
 ```mysql
 SELECT product_name, product_type
   FROM product
-  WHERE product_type = '衣服';
+  WHERE product_type = "衣服";
 ```
 ![image](https://github.com/TranquilMaple/The-learning-journey-of-YF/assets/139969854/3d2e2bf7-48ec-43dd-a250-881866d7ba06)
 ```mysql
 SELECT product_name
   FROM product
-  WHERE product_type = '衣服';
+  WHERE product_type = "衣服";
 ```
 ![image](https://github.com/TranquilMaple/The-learning-journey-of-YF/assets/139969854/cf896f85-3ff2-4c01-80e2-9f001b7edf79)
+
+**运算优先级**
+![image](https://github.com/TranquilMaple/The-learning-journey-of-YF/assets/139969854/a2557a10-5a3d-4fd2-9809-ac53dca48786)
+
+
+### 练习题Part1
+2.1编写一条SQL语句，从 product(商品) 表中选取出“登记日期(regist_date)在2009年4月28日之后”的商品，查询结果要包含 product_name 和 regist_date 两列。
