@@ -181,7 +181,10 @@ DROP TABLE Addressbook;
 ![image-20240515103436600](https://github.com/TranquilMaple/The-learning-journey-of-YF/assets/139969854/b89b7947-b767-4f35-8b12-c3536abf86ad)
 
 
-## 1基础查找与排序5.16
+## 1 基础查找与排序5.16
+
+**PART1**
+
 **SELECT 语句和WHERE语句**
 
 注意这里一定要缩进
@@ -264,7 +267,20 @@ why? NULL的真值结果既不为真，也不为假，因为并不知道这样�
 
 2.3在2.2.3章节中的SELECT语句能够从 product 表中取出“销售单价（sale_price）比进货单价（purchase_price）高出500日元以上”的商品。请写出两条可以得到相同结果的SELECT语句。执行结果如下所示：
 
-![image](https://github.com/TranquilMaple/The-learning-journey-of-YF/assets/139969854/f4633217-51de-4e9c-8df0-cca98bafece5)
+```mysql
+-- 第一种
+SELECT product_name, sale_price, purchase_price
+  FROM product
+	WHERE sale_price >= purchase_price + 500;
+	
+-- 第二种
+SELECT product_name, sale_price, purchase_price
+  FROM product
+	WHERE NOT sale_price < purchase_price + 500;
+```
+
+![image](https://github.com/TranquilMaple/The-learning-journey-of-YF/assets/139969854/2252bcde-f70b-482d-932b-c676d00c521b)
+
 
 ①
 
@@ -303,3 +319,18 @@ SELECT product_name, product_type, profit
 ```
 
 ![image](https://github.com/TranquilMaple/The-learning-journey-of-YF/assets/139969854/3b71e1dc-2222-4cc6-a87d-250a5d91d49c)
+
+
+### 练习题Part2
+
+2.5请指出下述SELECT语句中所有的语法错误。
+
+![image](https://github.com/TranquilMaple/The-learning-journey-of-YF/assets/139969854/c0a1fa66-d3ff-4bf2-ae83-30cf112a0b0e)
+
+ⅠGROUP BY 字段（product_type）与 SELECT 字段不同（product_id）***
+
+Ⅱproduct_name可能有多个重复的, 需要使用DISTINCT函数
+
+ⅢGROUP BY的子句书写顺序有严格要求，不按要求会导致SQL无法正常执行，目前出现过的子句顺序为：1. SELECT ➡️ 2. FROM ➡️ 3. WHERE ➡️ 4. GROUP BY
+
+ⅣSUM函数用于对数值列进行求和,product_name为字符型,不可以用
