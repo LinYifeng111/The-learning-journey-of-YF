@@ -432,25 +432,32 @@ CREATE VIEW <视图名字>(<列1>,<列2>,...)AS <SELECT语句>
 
 创建表shop_product
 
-![image-20240528233741691](C:\Users\linyifeng\AppData\Roaming\Typora\typora-user-images\image-20240528233741691.png)
+![image-20240528233741691](https://github.com/TranquilMaple/The-learning-journey-of-YF/assets/139969854/493fa6a4-0091-4c6e-b4bb-2762c0303bf5)
 
-![image-20240528233933377](C:\Users\linyifeng\AppData\Roaming\Typora\typora-user-images\image-20240528233933377.png)
+
+![image-20240528233933377](https://github.com/TranquilMaple/The-learning-journey-of-YF/assets/139969854/bfcb5151-fddc-44e2-a004-3a9a3f4d662a)
+
 
 在 product 表和 shop_product 表的基础上创建视图
 
-![image-20240528234144329](C:\Users\linyifeng\AppData\Roaming\Typora\typora-user-images\image-20240528234144329.png)
+![image-20240528234144329](https://github.com/TranquilMaple/The-learning-journey-of-YF/assets/139969854/9dff5c24-80bf-49c5-b411-e5ffc6cd7a88)
 
-![image-20240528234157948](C:\Users\linyifeng\AppData\Roaming\Typora\typora-user-images\image-20240528234157948.png)
+
+![image-20240528234157948](https://github.com/TranquilMaple/The-learning-journey-of-YF/assets/139969854/e33b680b-577c-45a4-89b7-3e978c5a4848)
+
 
 在这个视图的基础上进行查询
 
-![image-20240528234348052](C:\Users\linyifeng\AppData\Roaming\Typora\typora-user-images\image-20240528234348052.png)
+![image-20240528234348052](https://github.com/TranquilMaple/The-learning-journey-of-YF/assets/139969854/29ed8f3d-b092-42a9-93b4-6b128b0fa325)
+
 
 修改视图`ALTER VIEW <视图名> AS <SELECT语句>`
 
-![image-20240528235734462](C:\Users\linyifeng\AppData\Roaming\Typora\typora-user-images\image-20240528235734462.png)
+![image-20240528235734462](https://github.com/TranquilMaple/The-learning-journey-of-YF/assets/139969854/a17415ae-7619-48ec-8030-a3481b56c7ec)
 
-![image-20240528235827831](C:\Users\linyifeng\AppData\Roaming\Typora\typora-user-images\image-20240528235827831.png)
+
+![image-20240528235827831](https://github.com/TranquilMaple/The-learning-journey-of-YF/assets/139969854/30dd4463-e00a-455a-b368-1a320e31ad67)
+
 
 ③更新视图
 
@@ -485,13 +492,16 @@ WHERE TABLE_SCHEMA = 'shop'
 
 **嵌套子查询**
 
-![image-20240529002127329](C:\Users\linyifeng\AppData\Roaming\Typora\typora-user-images\image-20240529002127329.png)
+![image-20240529002127329](https://github.com/TranquilMaple/The-learning-journey-of-YF/assets/139969854/8cc9c9ff-5015-4fc0-84b5-24f585504620)
+
 
 **标量子查询**
 
-![image-20240529002302877](C:\Users\linyifeng\AppData\Roaming\Typora\typora-user-images\image-20240529002302877.png)
+![image-20240529002302877](https://github.com/TranquilMaple/The-learning-journey-of-YF/assets/139969854/cd2d628f-0f58-4fb2-bce0-142ba4c93ce1)
 
-![image-20240529002327923](C:\Users\linyifeng\AppData\Roaming\Typora\typora-user-images\image-20240529002327923.png)
+
+![image-20240529002327923](https://github.com/TranquilMaple/The-learning-journey-of-YF/assets/139969854/61c9a187-2e1a-46fc-af49-87b0278c237d)
+
 
 ------
 
@@ -529,9 +539,11 @@ FROM product
 WHERE sale_price>=1000 AND regist_date >= '2009-09-20';
 ```
 
-![image-20240529003216359](C:\Users\linyifeng\AppData\Roaming\Typora\typora-user-images\image-20240529003216359.png)
+![image-20240529003216359](https://github.com/TranquilMaple/The-learning-journey-of-YF/assets/139969854/62704cc4-c839-49a0-b6ed-26698031a39b)
 
-![image-20240529003227835](C:\Users\linyifeng\AppData\Roaming\Typora\typora-user-images\image-20240529003227835.png)
+
+![image-20240529003227835](https://github.com/TranquilMaple/The-learning-journey-of-YF/assets/139969854/5172ce07-4555-4351-a15f-1f6744e483a6)
+
 
 **3.2**向习题一中创建的视图 `ViewPractice5_1` 中插入如下数据，会得到什么样的结果？为什么？
 
@@ -539,13 +551,15 @@ WHERE sale_price>=1000 AND regist_date >= '2009-09-20';
 INSERT INTO ViewPractice5_1 VALUES (' 刀子 ', 300, '2009-11-02');
 ```
 
-![image-20240529003421499](C:\Users\linyifeng\AppData\Roaming\Typora\typora-user-images\image-20240529003421499.png)
+![image-20240529003421499](https://github.com/TranquilMaple/The-learning-journey-of-YF/assets/139969854/24734fad-1a9f-40a0-ab7f-b8a82a5e2437)
+
 
 简单的来说就是格式不对, 不能正确插入
 
 答案(好专业看不懂):
 
-![image-20240529004000995](C:\Users\linyifeng\AppData\Roaming\Typora\typora-user-images\image-20240529004000995.png)
+![image-20240529004000995](https://github.com/TranquilMaple/The-learning-journey-of-YF/assets/139969854/4e77970b-8b27-435e-b4a1-e11a6fafbb7a)
+
 
 **3.3**请根据如下结果编写 SELECT 语句，其中 sale_price_avg 列为全部商品的平均销售单价。
 
@@ -553,9 +567,11 @@ INSERT INTO ViewPractice5_1 VALUES (' 刀子 ', 300, '2009-11-02');
 
 我写的错误答案: 视图（View）是一个虚拟表，其内容由查询定义。它们不存储数据，而是在查询视图时动态生成数据。因此，你不能直接向视图中添加列，也不能更新视图中的数据，因为视图本身不包含数据。
 
-![image-20240529005328062](C:\Users\linyifeng\AppData\Roaming\Typora\typora-user-images\image-20240529005328062.png)
+![image-20240529005328062](https://github.com/TranquilMaple/The-learning-journey-of-YF/assets/139969854/830f0697-09ac-499b-9cfb-ae260ba1580f)
 
-![image-20240529005415522](C:\Users\linyifeng\AppData\Roaming\Typora\typora-user-images\image-20240529005415522.png)
+
+![image-20240529005415522](https://github.com/TranquilMaple/The-learning-journey-of-YF/assets/139969854/e8f7d7a8-0ee9-494c-9924-39a0c5dc2587)
+
 
 **3.4**请根据习题一中的条件编写一条 SQL 语句，创建一幅包含如下数据的视图（名称为AvgPriceByType）。
 
