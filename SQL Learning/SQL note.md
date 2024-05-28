@@ -559,13 +559,16 @@ INSERT INTO ViewPractice5_1 VALUES (' 刀子 ', 300, '2009-11-02');
 
 **3.4**请根据习题一中的条件编写一条 SQL 语句，创建一幅包含如下数据的视图（名称为AvgPriceByType）。
 
-[![图片](https://github.com/datawhalechina/wonderful-sql/raw/main/img/ch03/ch03.10-2-sale_price_avg_type.png)](https://github.com/datawhalechina/wonderful-sql/blob/main/img/ch03/ch03.10-2-sale_price_avg_type.png)
+![image-20240529005415522](https://github.com/TranquilMaple/The-learning-journey-of-YF/assets/139969854/7f2634af-57ae-4541-8c3f-95d4837ee0cd)
+
 
 提示：其中的关键是 `sale_price_avg_type` 列。与习题三不同，这里需要计算出的 是各商品种类的平均销售单价。这与使用关联子查询所得到的结果相同。 也就是说，该列可以使用关联子查询进行创建。问题就是应该在什么地方使用这个关联子查询。
 
-![image-20240529005825526](C:\Users\linyifeng\AppData\Roaming\Typora\typora-user-images\image-20240529005825526.png)
+![image-20240529005825526](https://github.com/TranquilMaple/The-learning-journey-of-YF/assets/139969854/8643f195-43b3-4325-a123-e9bae8d8c780)
 
-![image-20240529005915157](C:\Users\linyifeng\AppData\Roaming\Typora\typora-user-images\image-20240529005915157.png)
+
+![image-20240529005915157](https://github.com/TranquilMaple/The-learning-journey-of-YF/assets/139969854/ff3c7859-53af-43d7-9bcc-81517bb4e47e)
+
 
 ------
 
@@ -667,7 +670,8 @@ COALESCE 是 SQL 特有的函数。该函数会返回可变参数 A 中左侧开
 
 ✅
 
-![image-20240529011649088](C:\Users\linyifeng\AppData\Roaming\Typora\typora-user-images\image-20240529011649088.png)
+![image-20240529011649088](https://github.com/TranquilMaple/The-learning-journey-of-YF/assets/139969854/bf7f5f8e-4be4-49b2-a832-c4583333f13b)
+
 
 
 
@@ -681,7 +685,8 @@ SELECT product_name, purchase_price
  WHERE purchase_price NOT IN (500, 2800, 5000);
 ```
 
-![image-20240529011837403](C:\Users\linyifeng\AppData\Roaming\Typora\typora-user-images\image-20240529011837403.png)
+![image-20240529011837403](https://github.com/TranquilMaple/The-learning-journey-of-YF/assets/139969854/75507429-aaed-412d-9534-d4ac69e4bec8)
+
 
 ②
 
@@ -691,13 +696,15 @@ SELECT product_name, purchase_price
  WHERE purchase_price NOT IN (500, 2800, 5000, NULL);
 ```
 
-![image-20240529011858834](C:\Users\linyifeng\AppData\Roaming\Typora\typora-user-images\image-20240529011858834.png)
+![image-20240529011858834](https://github.com/TranquilMaple/The-learning-journey-of-YF/assets/139969854/579e04c5-7f72-4fe4-8747-3ce7cf62a79d)
+
 
 答案:
 
 
 
-![image-20240529012703166](C:\Users\linyifeng\AppData\Roaming\Typora\typora-user-images\image-20240529012703166.png)
+![image-20240529012703166](https://github.com/TranquilMaple/The-learning-journey-of-YF/assets/139969854/0265aac2-fee5-4826-9e08-48ae75ec536f)
+
 
 ⭐⭐⭐
 
@@ -717,7 +724,8 @@ low_price | mid_price | high_price
         5 |         1 |         2
 ```
 
-![image-20240529013003403](C:\Users\linyifeng\AppData\Roaming\Typora\typora-user-images\image-20240529013003403.png)
+![image-20240529013003403](https://github.com/TranquilMaple/The-learning-journey-of-YF/assets/139969854/78bd3e7e-e987-4c31-8688-2eb80e7d8230)
+
 
 ------
 
