@@ -559,8 +559,7 @@ INSERT INTO ViewPractice5_1 VALUES (' 刀子 ', 300, '2009-11-02');
 
 **3.4**请根据习题一中的条件编写一条 SQL 语句，创建一幅包含如下数据的视图（名称为AvgPriceByType）。
 
-![image-20240529005415522](https://github.com/TranquilMaple/The-learning-journey-of-YF/assets/139969854/7f2634af-57ae-4541-8c3f-95d4837ee0cd)
-
+[![图片](https://github.com/datawhalechina/wonderful-sql/raw/main/img/ch03/ch03.10-2-sale_price_avg_type.png)
 
 提示：其中的关键是 `sale_price_avg_type` 列。与习题三不同，这里需要计算出的 是各商品种类的平均销售单价。这与使用关联子查询所得到的结果相同。 也就是说，该列可以使用关联子查询进行创建。问题就是应该在什么地方使用这个关联子查询。
 
