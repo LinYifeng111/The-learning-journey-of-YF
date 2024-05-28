@@ -424,11 +424,11 @@ CREATE VIEW <视图名字>(<列1>,<列2>,...)AS <SELECT语句>
 
 ①在product表的基础上创建一个视图
 
-![image-20240528233741691](https://github.com/TranquilMaple/The-learning-journey-of-YF/assets/139969854/209386b5-14a4-43c1-a730-3e8d202a0790)
+![image-20240528233200080](https://github.com/TranquilMaple/The-learning-journey-of-YF/assets/139969854/8e15f725-12e2-49d6-96ee-9d3f132941b9)
 
 
+![image-20240528233359272](https://github.com/TranquilMaple/The-learning-journey-of-YF/assets/139969854/479ca3c7-7dc2-4a35-b36a-62b4d2df8eda)
 
-![Uploading image-20240528233933377.png…]()
 
 
 
@@ -436,7 +436,8 @@ CREATE VIEW <视图名字>(<列1>,<列2>,...)AS <SELECT语句>
 
 创建表shop_product
 
-![image-20240528233741691](https://github.com/TranquilMaple/The-learning-journey-of-YF/assets/139969854/493fa6a4-0091-4c6e-b4bb-2762c0303bf5)
+![image-20240528233741691](https://github.com/TranquilMaple/The-learning-journey-of-YF/assets/139969854/59a2e4c9-d1bf-4854-9c1f-ffd416a7a56f)
+
 
 
 ![image-20240528233933377](https://github.com/TranquilMaple/The-learning-journey-of-YF/assets/139969854/bfcb5151-fddc-44e2-a004-3a9a3f4d662a)
