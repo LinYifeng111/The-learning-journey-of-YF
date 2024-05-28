@@ -424,9 +424,13 @@ CREATE VIEW <视图名字>(<列1>,<列2>,...)AS <SELECT语句>
 
 ①在product表的基础上创建一个视图
 
-![image-20240528233200080](C:\Users\linyifeng\AppData\Roaming\Typora\typora-user-images\image-20240528233200080.png)
+![image-20240528233741691](https://github.com/TranquilMaple/The-learning-journey-of-YF/assets/139969854/209386b5-14a4-43c1-a730-3e8d202a0790)
 
-![image-20240528233359272](C:\Users\linyifeng\AppData\Roaming\Typora\typora-user-images\image-20240528233359272.png)
+
+
+![Uploading image-20240528233933377.png…]()
+
+
 
 ②基于多表的视图
 
